@@ -1,4 +1,4 @@
-all: main.o
+all: connections
 libmat.a: my_mat.o
 	ar -rcs libmat.a my_mat.o
 my_mat.o:
